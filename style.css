@@ -207,11 +207,11 @@ input{
 }
 .tipAmount{
     font-size: 14px;
-    color:  hsl(189, 41%, 97%);
+    color: hsl(189, 41%, 97%);
 }
 .person{
     font-size: 10px;
-    color:  hsl(184, 14%, 56%);
+    color: hsl(184, 14%, 56%);
 }   
 .resetButtonDiv{
     display: flex;
