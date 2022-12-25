@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Tip calculator app</title>
+
+</head>
+<body>
+<div class="centeringDiv">
+  <header class="logoDiv">
+    <image src="images/logo.svg" alt="logo" class="logoPic"/>
+  </header>
+
+  <main class="mainCard">
+
+    <div class="inputDiv">
+
+      <div class="input1">
+        <strong class="inputLabel">Bill</strong>
+        <br>
+        <div class="dollarInputDiv">
+          <image src="images/icon-dollar.svg" alt="dollar" class="dollar"/>
+          <input type="text" class="billInput" value="0" />
+        </div>
+      </div>
+      <div class="tipSelection">
+        <strong class="inputLabel move">Select Tip %</strong>
+        <div class="tipAmounts">
+          <a class="button A">5%</a>
+          <a class="button B">10%</a>
+          <a class="button C">15%</a>
+          <a class="button D">25%</a>
+          <a class="button E">50%</a>
+          <a class="customBtn F">Custom</a>
+          <input type="text" class="customInput" />
+        </div>
+      </div>
+      <div class="numberPeopleDiv">
+        <div class="numberLabel">
+          <strong class="inputLabel">Number of People</strong>
+          <strong class="onlyZeroText">Can't be zero</strong>
+        </div>
+        <div class="dollarInputDiv">
+          <image src="images/icon-person.svg" alt="dollar" class="dollar"/>
+          <input type="text" class="peopleInput" value="0" />
+        </div>
+      </div>
+
+    </div>
+
+    <form class="resultDiv">
+
+    <div class="resultAnswers">
+
+      <div class="resultSection">
+        <div class="resultLabel">
+          <span class="tipAmount">Tip Amount</span>
+          <span class="person">/ person</span>
+        </div>
+        <div>
+          <input type="text" class="tipTotal" value="$0.00" readonly>
+        </div>
+      </div>
+
+      <div class="resultSection">
+        <div class="resultLabel">
+          <span class="tipAmount">Total</span>
+          <span class="person">/ person</span>
+        </div>
+        <div>
+          <input type="text" class="tipTotal totalPerPerson" value="$0.00" readonly>
+        </div>
+      </div>
+
+    </div>
+
+      <div class="resetButtonDiv">
+        <button type="reset" class="reset">RESET</button>
+      </div>
+
+    </form>
+  </main>
+</div>
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.frontendmentor.io/profile/kelso540">Kelsey Jackson</a>.
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
