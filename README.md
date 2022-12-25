@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/kelso540/tip-calculator](https://github.com/kelso540/tip-calculator)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://precious-seahorse-ba9ecb.netlify.app/](https://precious-seahorse-ba9ecb.netlify.app/)
 
 ### Built with
 
@@ -73,5 +73,5 @@ values.total = Number(selections.billTotal.value) + Number(values.tip);
 
 ## Author
 
-- Website - [Kelsey Jackson](https://www.your-site.com)
+- Website - [Kelsey Jackson](https://portfolio-react-project.netlify.app/)
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
