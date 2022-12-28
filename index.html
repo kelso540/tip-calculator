@@ -23,15 +23,15 @@
     <div class="inputDiv">
 
       <div class="input1">
-        <strong class="inputLabel">Bill</strong>
+        <label for="bill" class="inputLabel">Bill</label>
         <br>
         <div class="dollarInputDiv">
           <image src="images/icon-dollar.svg" alt="dollar" class="dollar"/>
-          <input type="text" class="billInput" value="0" label="billTotal" />
+          <input type="text" class="billInput" value="0" />
         </div>
       </div>
       <div class="tipSelection">
-        <strong class="inputLabel move">Select Tip %</strong>
+        <label for="tip" class="inputLabel move">Select Tip %</label>
         <div class="tipAmounts">
           <a class="button A">5%</a>
           <a class="button B">10%</a>
@@ -44,12 +44,12 @@
       </div>
       <div class="numberPeopleDiv">
         <div class="numberLabel">
-          <strong class="inputLabel">Number of People</strong>
+          <label for="people" class="inputLabel">Number of People</label>
           <strong class="onlyZeroText">Can't be zero</strong>
         </div>
         <div class="dollarInputDiv">
           <image src="images/icon-person.svg" alt="dollar" class="dollar"/>
-          <input type="text" class="peopleInput" value="0" label="totalPeople" />
+          <input type="text" class="peopleInput" value="0" />
         </div>
       </div>
 
@@ -61,21 +61,21 @@
 
       <div class="resultSection">
         <div class="resultLabel">
-          <span class="tipAmount">Tip Amount</span>
+          <label for="tip" class="tipAmount">Tip Amount</label>
           <span class="person">/ person</span>
         </div>
         <div>
-          <input type="text" class="tipTotal" value="$0.00" label="totalTip" readonly>
+          <input type="text" class="tipTotal" value="$0.00" readonly>
         </div>
       </div>
 
       <div class="resultSection">
         <div class="resultLabel">
-          <span class="tipAmount">Total</span>
+          <label for="totalPerPerson" class="tipAmount">Total</label>
           <span class="person">/ person</span>
         </div>
         <div>
-          <input type="text" class="tipTotal totalPerPerson" value="$0.00" label="totalPer" readonly>
+          <input type="text" class="tipTotal totalPerPerson" value="$0.00" readonly>
         </div>
       </div>
 
