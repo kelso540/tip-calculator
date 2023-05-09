@@ -234,9 +234,14 @@ input{
         flex-direction: column;
         height: 80vh;
         width: 100vw;
+        padding: 20px 0;
     }
     .centeringDiv{
         justify-content: flex-end;
+    }
+    .logoPic{
+        position: relative;
+        top: 30px;
     }
     .inputDiv{
         height: 88%;
@@ -245,6 +250,7 @@ input{
     .resultDiv{
         height: 50%;
         width: 90%;
+        padding-bottom: 20px;
         margin-bottom: 20px;
     }
     .resultAnswers{
@@ -278,15 +284,5 @@ input{
     }
     .customBtn{
         width: 40%;
-    }
-}
-@media screen and (max-width: 380px) {
-    .resultDiv{
-        margin-bottom: 10px;
-    }
-}
-@media screen and (max-height: 800px) {
-    .mainCard{
-        height: 60vh;
     }
 }
